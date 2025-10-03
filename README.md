@@ -120,8 +120,7 @@ An IoT + Android project that monitors **water level** (ultrasonic) and **pipeli
 # arduino-cli monitor -p /dev/ttyUSB0 -c 115200
 ```
 
-## 👥 Authors
-- Nithishkumar R — 21MIS1075
+## 👥 Author
 - Aswin Mallesh N S — 21MIS1087
 
 ## 🛡 License
