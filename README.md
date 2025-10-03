@@ -2,7 +2,7 @@
 
 An IoT + Android project that monitors **water level** (ultrasonic) and **pipeline flow** (YF-S201), controls a **pump** via relay, stores telemetry in **Firebase Realtime Database**, and visualizes usage trends on an **Android app**.
 
-> ⚠️ **Note**: This project is an educational prototype. Use at your own risk and follow electrical/water safety practices.
+
 
 ---
 
@@ -12,27 +12,6 @@ An IoT + Android project that monitors **water level** (ultrasonic) and **pipeli
 - **Firebase Realtime Database** for live + historical data
 - **Android app** for dashboards (flow graphs, timestamps, relay state)
 - Modular design for easy expansion (quality sensors, alerts, etc.)
-
-## 📦 Repository Structure
-```
-.
-├─ app/                         # Android app module (add your code)
-├─ firmware/                    # ESP32 Arduino sketch (add your code)
-├─ docs/
-│  ├─ Project-Report.pdf        # Export your report here
-│  ├─ IOT-board.fzz             # Fritzing wiring file (added here)
-│  └─ images/                   # Screenshots & diagrams
-│     ├─ architecture.png
-│     ├─ hardware.png
-│     ├─ arduino_serial.png
-│     ├─ firebase_db.png
-│     └─ android_graph.png
-├─ .gitignore
-├─ README.md
-├─ requirements.md
-├─ LICENSE
-└─ HOWTO_UPLOAD.md
-```
 
 ## 🛠 Hardware
 - **ESP32 (WROOM‑32)**
@@ -44,7 +23,7 @@ An IoT + Android project that monitors **water level** (ultrasonic) and **pipeli
 ## 🧰 Software Stack
 - **Arduino IDE** for ESP32 (Wi‑Fi + sensors + Firebase client)
 - **Firebase Realtime Database**
-- **Android App** (Kotlin/Java) for charts & controls
+- **Android App** (Java) for charts & controls
 
 ## 🧭 Architecture
 ![Architecture](docs/images/architecture.png)
@@ -106,10 +85,6 @@ An IoT + Android project that monitors **water level** (ultrasonic) and **pipeli
 3. Configure pins/thresholds, Wi‑Fi, Firebase creds
 4. Upload to ESP32 and check serial output
 
-### Android
-1. Open `app/` in Android Studio → Gradle sync
-2. Add Firebase dependencies and `google-services.json` (don’t commit)
-3. Implement DB listeners, charts, and UI
 
 ## 🧪 Useful Commands
 ```bash
