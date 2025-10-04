@@ -1,6 +1,6 @@
 #define BLYNK_TEMPLATE_ID "TMPL3FDWGPaNG"
 #define BLYNK_TEMPLATE_NAME "Iot project"
-#define BLYNK_AUTH_TOKEN "jCNsSYolImG__ZKoC7F9R_HAlw32hvYr"
+#define BLYNK_AUTH_TOKEN "key/token"
 
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -8,7 +8,7 @@
 #include <NewPing.h>
 
 // Blynk auth token from your email
-char auth[] = "jCNsSYolImG__ZKoC7F9R_HAlw32hvYr";  
+char auth[] = "key/token";  
 char ssid[] = "1122";   // WiFi ID
 char pass[] = "123456789"; // WiFi password
 
